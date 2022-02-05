@@ -1,0 +1,1 @@
+NOTE: This website is not responsive and is best viewed on 1920x1080p screen. If your screen has lower resolution then use browser' s dev tools to view in 1920x1080p at ex: 50% or depending on your screen size.
