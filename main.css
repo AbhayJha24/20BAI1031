@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Roboto&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+section.section1{
+  background-color: #521755;
+  padding-top: 2%;
+  padding-bottom: 450px;
+  position: relative;
+}
+
+img.logo{
+  position: absolute;
+  top: 25px;
+  left: 50px;
+}
+
+img.logo2{
+  position: absolute;
+  top: 125px;
+  left: 50px;
+}
+
+nav.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  column-gap: 2%;
+  margin-right: 5vw;
+}
+
+li.navButton{
+  list-style: none;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+section.section1Content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25vw;
+}
+
+div.headers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+h1.zbc{
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h2.spaceDivision{
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h3.toInfinity{
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+div.blueButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1E95F6;
+  width: 250px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 25px;
+  padding: 1%;
+}
+
+img.section1Image{
+  width: 356px;
+  height: 404px;
+  margin-top: 55px;
+}
+
+img.homeWave{
+  width: 100vw;
+  position: absolute;
+  bottom: 0px;
+}
+
+section.section2{
+  background: linear-gradient(119.66deg, #4A154C 0%, #25306A 73.23%);
+  padding-bottom: 120px;
+}
+
+section.about1{
+  display: flex;
+  column-gap: 20%;
+}
+
+section.about2{
+  display: flex;
+  column-gap: 15%;
+}
+
+div.about1Content{
+  padding-top: 100px;
+  width: 50%;
+}
+
+div.about2Content{
+  padding-top: 100px;
+  width: 40%;
+  margin-left: 10%;
+}
+
+img.zbclogo{
+  width: 252px;
+  height: 252px;
+  margin-top: 100px;
+  margin-left: 10%;
+}
+
+img.robot{
+  width: 369px;
+  height: 270px;
+  margin-top: 100px;
+}
+
+h1.aboutRight{
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+h1.aboutLeft{
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+p.aboutText{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 39px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+p.aboutText2{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+section.section3{
+  position: relative;
+  background: url("./images/wave-2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1.work{
+  padding-top: 20px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+hr.separator{
+  border: none;
+  outline: none;
+  height: 5px;
+  width: 25%;
+  border-radius: 2px;
+  margin: auto;
+  background-color: #FFFFFF;
+  margin-bottom: 100px;
+}
+
+p.workText{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 350px;
+}
+
+h1.moonLaunch{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 144px;
+  text-align: center;
+  color: #022275;
+}
+
+div.moonLaunchImages{
+  position: relative;
+  height: 1000px;
+}
+
+img.moonLaunchHexaImage1, img.moonLaunchHexaImage2, img.moonLaunchHexaImage3, img.moonLaunchHexaImage4, img.moonLaunchHexaImage5, img.moonLaunchHexaImage6{
+  width: 420px;
+  height: 363px;
+  margin: auto;
+}
+
+div.topImage{
+  position: absolute;
+  top: 0px;
+  left: 37.5%;
+}
+
+div.middleImages{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 275px;
+  left: 26.5%;
+}
+
+div.bottomImages{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 550px;
+  left: 15.5%;
+}
+
+h1.ourOrbiters{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 144px;
+  text-align: center;
+  color: #022275;
+  margin-bottom: 100px;
+}
+
+div.orbiterImages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10%;
+  margin-bottom: 100px;
+}
+
+img.orbiterImage{
+  width: 352px;
+  height: 312px;
+}
+
+h1.otherProjects{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 144px;
+  text-align: center;
+  color: #022275;
+  margin-bottom: 50px;
+}
+
+div.slider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+div.hider{
+  width: 75%;
+  overflow: hidden;
+}
+
+div.carousel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%;
+  width: 150%;
+}
+
+img.sliderImage{
+  width: 276px;
+  height: 247px;
+}
+
+section.section4{
+  position: relative;
+  background: url("./images/wave-4.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1.event{
+  padding-top: 120px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+hr.separator2{
+  border: none;
+  outline: none;
+  height: 5px;
+  width: 25%;
+  border-radius: 2px;
+  margin: auto;
+  background-color: #FFFFFF;
+  margin-bottom: 350px;
+}
+
+div.eventsCards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%;
+  margin-bottom: 100px;
+}
+
+div.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(157.48deg, #521755 0.87%, #293576 100%);
+  width: 10%;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+img.eventImage{
+  width: 215px;
+  height: 207px;
+  margin-bottom: 50px;
+}
+
+div.whiteButton{
+  background-color: #FFFFFF;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+h1.contact{
+  margin-left: 8%;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+  color: #433C78;
+}
+
+div.formMapSection{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 12%;
+  column-gap: 10%;
+}
+
+form.form{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 30%;
+}
+
+input{
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+textarea{
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+::placeholder{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+input.blueButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1E95F6;
+  width: 200px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 25px;
+  padding: 1%;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+
+section.footer{
+  position: relative;
+  background: url("./images/wave-3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  column-gap: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+h1.footerHeading{
+  padding-top: 150px;
+  width: 25%;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h2.mailus{
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h3.mail{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+div.socialIcons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%;
+}
+
+img.socialIcon{
+  width: 73px;
+  height: 67px;
+}
+
+img.footerImage{
+  position: absolute;
+  top: 60px;
+  right: 50px;
+}
