@@ -150,25 +150,37 @@
             </section>
     </div>
     <script>
-      const moveSliderLeft = () => {
-        let caro = document.getElementById('carousel');
-        let prevTransf = window.getComputedStyle(caro).transform.split(", ");
-        console.log(prevTransf);
-        if (!prevTransf[4]) {
-          caro.style.transform = `translateX(-400px)`;
-        }
-        caro.style.transform = `translateX(${+prevTransf[4] - 400}px)`;
-
-      }
-
       const moveSliderRight = () => {
         let caro = document.getElementById('carousel');
         let prevTransf = window.getComputedStyle(caro).transform.split(", ");
-        console.log(prevTransf);
         if (!prevTransf[4]) {
-          caro.style.transform = `translateX(400px)`;
+          caro.style.transform = `translateX(-360px)`;
         }
-        caro.style.transform = `translateX(${+prevTransf[4] + 400}px)`;
+
+        else{
+        if ((+prevTransf[4] - 360) < -720) {
+          caro.style.transform = `translateX(0px)`;
+        }
+        else{
+        caro.style.transform = `translateX(${+prevTransf[4] - 360}px)`;
+        }
+        }
+      }
+
+      const moveSliderLeft = () => {
+        let caro = document.getElementById('carousel');
+        let prevTransf = window.getComputedStyle(caro).transform.split(", ");
+        if (!prevTransf[4]) {
+          caro.style.transform = `translateX(-720px)`;
+        }
+        else{
+          if ((+prevTransf[4] + 360) > 0) {
+          caro.style.transform = `translateX(-720px)`;
+        }
+        else{
+          caro.style.transform = `translateX(${+prevTransf[4] + 360}px)`;
+        }
+        }
       }
     </script>
   </body>

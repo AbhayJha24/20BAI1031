@@ -349,7 +349,7 @@ div.carousel{
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 5%;
+  column-gap: 4%;
   width: 150%;
 }
 
