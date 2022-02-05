@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <link rel="icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -16,6 +18,9 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
+      <script>
+        AOS.init();
+      </script>
         <section class="section1">
             <img src="./images/rocket-img.png" alt="Logo" class="logo"/>
               <nav class="navBar">
@@ -38,14 +43,14 @@
             </section>
         
             <section class="section2">
-              <section class="about1">
+              <section class="about1" data-aos="fade-up">
                 <img src="./images/zbc-logo.png" alt="Logo" class="zbclogo" />
                 <div class="about1Content">
                 <h1 class="aboutRight">About ZBC</h1>
                 <p class="aboutText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quos perspiciatis consequatur at optio ipsum iusto quae cum id, laborum assumenda illo voluptas sint maiores blanditiis! Praesentium magnam rem qui.</p>
                 </div>
               </section>
-              <section class="about2">
+              <section class="about2" data-aos="fade-up">
                 <div class="about2Content">
                 <h1 class="aboutLeft">About Space Division</h1>
                 <p class="aboutText2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quos perspiciatis consequatur at optio ipsum iusto quae cum id, laborum assumenda illo voluptas sint maiores blanditiis! Praesentium magnam rem qui.</p>
@@ -54,12 +59,12 @@
               </section>
             </section>
             <section class="section3">
-              <img src="./images/rocket-img.png" alt="Logo" class="logo"/>
-              <h1 class="work">Our Work</h1>
-              <hr class="separator" />
-              <p class="workText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dignissimos et provident fuga aperiam autem libero error suscipit unde totam. Maiores, voluptatem ratione! Deleniti corrupti hic nam odio placeat cupiditate.</p>
-              <h1 class="moonLaunch">Moon Launch</h1>
-              <div class="moonLaunchImages">
+              <img src="./images/rocket-img.png" alt="Logo" class="logo" data-aos="fade-up"/>
+              <h1 class="work" data-aos="fade-up">Our Work</h1>
+              <hr class="separator" data-aos="fade-up"/>
+              <p class="workText" data-aos="fade-up">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dignissimos et provident fuga aperiam autem libero error suscipit unde totam. Maiores, voluptatem ratione! Deleniti corrupti hic nam odio placeat cupiditate.</p>
+              <h1 class="moonLaunch" data-aos="fade-up">Moon Launch</h1>
+              <div class="moonLaunchImages" data-aos="fade-up">
                 <div class="topImage">
                 <img src="./images/Polygon 1.png" alt="HexaImage" class="moonLaunchHexaImage1" />
                 </div>
@@ -73,14 +78,14 @@
                 <img src="./images/Polygon 6.png" alt="HexaImage" class="moonLaunchHexaImage6" />
                 </div>
               </div>
-              <h1 class="ourOrbiters">Our Orbiters</h1>
-              <div class="orbiterImages">
+              <h1 class="ourOrbiters" data-aos="fade-up">Our Orbiters</h1>
+              <div class="orbiterImages" data-aos="fade-up">
                 <img src="./images/img-1.png" alt="Orbiters" class="orbiterImage" />
                 <img src="./images/img-2.png" alt="Orbiters" class="orbiterImage" />
                 <img src="./images/img-3.png" alt="Orbiters" class="orbiterImage" />
               </div>
-              <h1 class="otherProjects">Other Projects</h1>
-              <div class="slider">
+              <h1 class="otherProjects" data-aos="fade-up">Other Projects</h1>
+              <div class="slider" data-aos="fade-up">
                 <img src="./images/sliderButton1.png" alt="Slider Button" class="sliderButtonL" onclick="moveSliderLeft()"/>
                 <div class="hider">
                 <div class="carousel" id="carousel">
@@ -96,10 +101,10 @@
               </div>
             </section>
             <section class="section4">
-            <img src="./images/rocket-img.png" alt="Logo" class="logo2"/>
-            <h1 class="event">Our Events</h1>
-            <hr class="separator2" />
-            <div class="eventsCards">
+            <img src="./images/rocket-img.png" alt="Logo" class="logo2" data-aos="fade-up"/>
+            <h1 class="event" data-aos="fade-up">Our Events</h1>
+            <hr class="separator2" data-aos="fade-up"/>
+            <div class="eventsCards" data-aos="fade-up">
             <div class="card">
               <img src="./images/events-img-1.png" alt="Events Image" class="eventImage" />
               <div class="whiteButton">View More</div>
@@ -117,8 +122,8 @@
               <div class="whiteButton">View More</div>
             </div>
             </div>
-            <h1 class="contact">Get in Touch</h1>
-            <div class="formMapSection">
+            <h1 class="contact" data-aos="fade-up">Get in Touch</h1>
+            <div class="formMapSection" data-aos="fade-up">
               <form class="form">
                 <input type="text" name="name" placeholder="Enter Name" />
                 <input type="text" name="email"placeholder="Enter your email address" />
